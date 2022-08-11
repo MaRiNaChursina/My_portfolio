@@ -1,13 +1,14 @@
-﻿@font-face {
+﻿/* Добавить шрифты */
+@font-face {
 	font-family: 'BubbleDriving'; 
-	src: url(./src/BubbleDrivingRegular.ttf); 
+	src: url(./fonts/beer-money12.ttf); 
 }
 
 @font-face {
 	font-family: 'roboto'; 
-	src: url(./src/21002.ttf); 
+	src: url(./fonts/caviar-dreams.ttf); 
 }
-
+/* До сюда */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
@@ -20,17 +21,18 @@
 }
 
 header {
- border-bottom: 2px solid #a18ec7;
+ 
   padding-right: 10em;
   position: fixed;
   width: 100%;
+  /* background-color: #771f41; */
 }
 
 .header h1{
   font-family: BubbleDriving;
   color: blueviolet;
   font-size: 50px;
-  margin-bottom: -30px;
+  margin-bottom: -35px;
   margin-top: -5px; 
   
 }
@@ -39,7 +41,7 @@ header {
   font-family:roboto ;
   font-size: 20px;
   text-align: right;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-right: 3em;  
 }
 .header a{
@@ -48,7 +50,7 @@ header {
   color: rgb(122, 122, 122);
 }
 
-.header a:hover{
+.navi:hover{
   
   background-color: #a20fc7;
   border-radius: 0 10px; 
@@ -58,11 +60,12 @@ header {
 }
 
 .p{
+
   font-size: 1.5em;
   opacity: 0;
 }
 
-.cover{  
+.cover{    border-top: 2px solid #a18ec7;
   color: rgb(32, 32, 32);
   font-size: 25px;
   text-align: center;  
@@ -122,6 +125,7 @@ header {
   width: 53%;
 }
 }
+
 .Infomy img{
   
  border: 2px solid #a18ec7;
