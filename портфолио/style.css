@@ -25,7 +25,10 @@ header {
   padding-right: 10em;
   position: fixed;
   width: 100%;
-  /* background-color: #771f41; */
+}
+.header1{
+margin-bottom: 10 em;
+
 }
 
 .header h1{
@@ -135,6 +138,9 @@ header {
 .ileft{
   font-family: roboto;
   font-size: 18px;
+}
+.Infomy{
+ margin-top: 3em;
 }
 .basic h2{
   text-align: center;
