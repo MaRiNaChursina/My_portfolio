@@ -8,6 +8,11 @@
 	font-family: 'roboto'; 
 	src: url(./fonts/caviar-dreams.ttf); 
 }
+
+@font-face {
+	font-family: 'quote'; 
+	src: url(./fonts/17654.otf); 
+}
 /* До сюда */
 @keyframes typing {
   from { width: 0 }
@@ -25,10 +30,6 @@ header {
   padding-right: 10em;
   position: fixed;
   width: 100%;
-}
-.header1{
-margin-bottom: 10 em;
-
 }
 
 .header h1{
@@ -62,13 +63,34 @@ margin-bottom: 10 em;
   color: azure;
 }
 
+.js-quo{
+  font-size: 1.5em;
+  font-family: quote;
+  text-align: center; 
+  padding-top: 300px;
+  color: #1d1d1d;
+  padding-bottom: 150px;
+  padding-left: 20px;
+  
+}
 .p{
 
   font-size: 1.5em;
   opacity: 0;
 }
+.ram_1 {
+  float: right;
+  width: 30%;
+  height: 40%;
+  color: #f5d9af;
+}
+.fon{
+  background-color: #f5d9af;
+  width: 100%;
+}
 
-.cover{    border-top: 2px solid #a18ec7;
+
+.cover{    border-top: 3px solid #8f79b9;
   color: rgb(32, 32, 32);
   font-size: 25px;
   text-align: center;  
@@ -142,11 +164,16 @@ margin-bottom: 10 em;
 .Infomy{
  margin-top: 3em;
 }
+.basic{
+  margin-bottom: 200px;
+  border-top: 3px solid #8f79b9;
+}
 .basic h2{
   text-align: center;
   font-size: 25px;
   font-family: roboto;
-  /* margin-top: 2em; */
+   margin-top: 100px; 
+   margin-bottom: 100px;
 }
 .hover-effect-cover {
   list-style:none;
@@ -218,6 +245,7 @@ margin-bottom: 10 em;
 }
   
 .contact h3{
+  border-top: 3px solid #8f79b9;
   text-align: center;
   font-size: 25px;
   font-family: roboto;
@@ -235,6 +263,9 @@ margin-bottom: 10 em;
   height: 40px;
   color: #fff;
   padding-top: 10px;
+  text-align: center;
+}
+.forma{
   text-align: center;
 }
 
