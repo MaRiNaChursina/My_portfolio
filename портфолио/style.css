@@ -82,10 +82,11 @@ header {
   float: right;
   width: 30%;
   height: 40%;
-  color: #f5d9af;
+  /* color: #f5d9af; */
+  color: #ffffff;
 }
 .fon{
-  background-color: #f5d9af;
+  /* background-color: #f5d9af; */
   width: 100%;
 }
 
@@ -267,5 +268,7 @@ header {
 }
 .forma{
   text-align: center;
+  font-size: 25px;
+  font-family: roboto;
 }
 
